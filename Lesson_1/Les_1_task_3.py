@@ -1,3 +1,5 @@
+# По введенным пользователем координатам двух точек вывести уравнение прямой вида y = kx + b, проходящей через эти точки.
+
 x1 = float(input("Enter x coord of point 1: "))
 y1 = float(input("Enter y coord of point 1: "))
 x2 = float(input("Enter x coord of point 2: "))

@@ -1,3 +1,5 @@
+# Найти сумму и произведение цифр трехзначного числа, которое вводит пользователь.
+
 number = int(input('Enter your 3-digit number:'))
 
 hundreds = number // 100

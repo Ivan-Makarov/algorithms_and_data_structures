@@ -1,3 +1,5 @@
+# Определить, является ли год, который ввел пользователь, високосным или не високосным.
+
 year = int(input("Enter year: "))
 
 common = str(year) + ' is a common year'
