@@ -3,7 +3,7 @@
 import random
 
 # Получение случайного целого числа разбирали на занятии, не стал повторяться
-mysterious_number = random.randrange(0, 100) 
+mysterious_number = random.randrange(0, 100)
 
 for i in range(10, 0, -1):
   x = int(input('Your guess: '))
