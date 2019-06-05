@@ -11,12 +11,15 @@ array = getArrayOfInt(10, -100, 100)
 print(f'In: {array}')
 
 maxNegative = None
+pos = None
 
-for i in array:
+for index, i in enumerate(array):
     if i < 0:
         if maxNegative is None:
             maxNegative = i
+            pos = index
         elif maxNegative < i:
             maxNegative = i
+            pos = index
 
-print(f'Max negative: {maxNegative}')
+print(f'Max negative: {maxNegative}, position: {pos}')
