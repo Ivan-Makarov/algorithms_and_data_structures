@@ -13,7 +13,7 @@ def bubble_sort(their_array):
     while n < items_to_sort:
         has_swaps = False
         for i in range(items_to_sort - n):
-            if our_array[i] > our_array[i + 1]:
+            if our_array[i] < our_array[i + 1]:
                 our_array[i], our_array[i + 1] = our_array[i + 1], our_array[i]
                 has_swaps = True
 
@@ -29,5 +29,5 @@ def bubble_sort(their_array):
 array = getArrayOfInt(10, -100, 100)
 sorted_array = bubble_sort(array)
 
-print(array)
-print(sorted_array)
+print(f'Original list: {array}')
+print(f'Sorted list: {sorted_array}')
